@@ -65,5 +65,8 @@ Tests under `Tests/CBORDexTests/` exercise encoding, decoding, canonical orderin
 - Minimum supported platforms: macOS 11, iOS 14, tvOS 14, watchOS 7
 - No external dependencies beyond Foundation
 
+## Development Workflow
+This package was bootstrapped with the help of an OpenAI Codex agent working alongside a human developer. The agent handled code exploration, implementation, documentation, and testing tasks through the Codex CLI, while the human collaborator reviewed direction, requested adjustments, and made product decisions. That pairing model keeps iteration fast yet supervised: the agent performs repeatable chores (formatting, SwiftPM builds, regression tests) and summarizes results so the developer can focus on design trade-offs and RFC alignment.
+
 ## License
 Distributed under the MIT License. See `LICENSE` for details.
