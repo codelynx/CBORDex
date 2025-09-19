@@ -68,5 +68,11 @@ Tests under `Tests/CBORDexTests/` exercise encoding, decoding, canonical orderin
 ## Development Workflow
 This package was bootstrapped with the help of an OpenAI Codex agent working alongside a human developer. The agent handled code exploration, implementation, documentation, and testing tasks through the Codex CLI, while the human collaborator reviewed direction, requested adjustments, and made product decisions. That pairing model keeps iteration fast yet supervised: the agent performs repeatable chores (formatting, SwiftPM builds, regression tests) and summarizes results so the developer can focus on design trade-offs and RFC alignment.
 
+
+## Claude code based project
+I tried the same concept project based on Anthropic Claude code.  You may visit to see the different and the similarities between the two projects.
+https://github.com/codelynx/CBORCla
+
+
 ## License
 Distributed under the MIT License. See `LICENSE` for details.
